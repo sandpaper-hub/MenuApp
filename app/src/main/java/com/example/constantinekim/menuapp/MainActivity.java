@@ -19,9 +19,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_menu, menu);
-//        menu.add(0, 0, 0, "Settings");
-//        menu.add(0, 1, 1, "Open Settings");
-//        menu.add(0, 2, 2, "Save Settings");
         return true;
     }
 
